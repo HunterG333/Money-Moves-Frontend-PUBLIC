@@ -2,6 +2,34 @@
 A React + TypeScript application for tracking net worth, managing accounts, and viewing financial insights over time.  
 This is the frontend of the Money Moves project, built with Vite and integrated with Auth0 and Plaid.
 
+![Dashboard](./screenshots/dashboard.png)
+*Dashboard / Home Page*
+
+## Features
+- Net worth tracking
+- Account syncing with Plaid
+- Auth0 login + MFA (via backend)
+- Responsive charts + dashboards
+
+## Tech Stack
+- React + TypeScript
+- Vite
+- Auth0 Authentication
+- Plaid API Integration
+
+
+<div style="display: flex; gap: 20px;">
+  <div>
+    <img src="./screenshots/mfa.png" width="300">
+    <p>MFA code entry page</p>
+  </div>
+  <div>
+    <img src="./screenshots/accountManagement.png" width="300">
+    <p>Account Management page</p>
+  </div>
+</div>
+
+
 ---
 
 ## Getting Started
